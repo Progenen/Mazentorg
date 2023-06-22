@@ -2141,3 +2141,14 @@ button {
     }
 
 }
+
+@media (max-width:400px){
+    .merch__subtitile {
+        font-size: 22px;
+    }
+
+    .merch__subtitile::after, .merch__subtitile::before {
+        width: 24px;
+        height: 44px;
+    }
+}
